@@ -10,7 +10,7 @@ import { EventHandler } from 'https://raw.githubusercontent.com/sammwyy/ehDeno/m
 const events = new EventHandler();
 ```
 
-## Functions
+## Functions:
 ### on
 **Description:** Use this function to register an event and add a callback function that will be executed when calling that event.  
 **Returns:** Void  
@@ -21,6 +21,7 @@ events.on("saysHelloWorld", () => {
 })
 ```
 
+
 ### emit
 **Description:** Use this function to execute all callbacks of an event.  
 **Returns:** Void  
@@ -28,6 +29,7 @@ events.on("saysHelloWorld", () => {
 ```typescript
 events.emit("saysHelloWorld");
 ```
+
 
 ### clear
 **Description:** Use this function to clear the callbacks list of an event.  
@@ -37,6 +39,7 @@ events.emit("saysHelloWorld");
 events.clear("saysHelloWorld");
 ```
 
+
 ### clearAll
 **Description:** Use this function to clear the callbacks list of all events.  
 **Returns:** Void  
@@ -44,6 +47,7 @@ events.clear("saysHelloWorld");
 ```typescript
 events.clearAll();
 ```
+
 
 ### get
 **Description:** This function returns a list with the callbacks of an event.  
@@ -53,6 +57,7 @@ events.clearAll();
 events.get("saysHelloWorld");
 ```
 
+
 ### list
 **Description:** This function returns a list of all handled events.  
 **Returns:** List  
@@ -60,6 +65,7 @@ events.get("saysHelloWorld");
 ```typescript
 events.clearAll();
 ```
+
 
 ### count
 **Description:** This function returns the count of handled events.  
@@ -69,6 +75,7 @@ events.clearAll();
 events.clearAll();
 ```
 
+
 #x## hasHandled
 **Description:** This function returns `true` if the event is handled, otherwise returns `false`.  
 **Returns:** List  
@@ -76,5 +83,6 @@ events.clearAll();
 ```typescript
 events.hasHandled("saysHelloWorld");
 ```
+
 
 ###### Coded with ❤️
