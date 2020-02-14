@@ -1,5 +1,5 @@
 # ehDeno
-A small and easy to use Event Handler for Deno
+A small and easy to use Event Handler for Deno.
 
 ## How to use:
 ```typescript
