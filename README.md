@@ -84,5 +84,4 @@ events.clearAll();
 events.hasHandled("saysHelloWorld");
 ```
 
-
 ###### Coded with ❤️
