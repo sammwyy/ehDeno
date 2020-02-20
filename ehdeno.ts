@@ -1,3 +1,6 @@
+// Sammwy (C) 2020
+// https://github.com/sammwyy/ehDeno
+
 export class EventHandler {
 	map;
 
