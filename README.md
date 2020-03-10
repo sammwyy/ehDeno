@@ -76,7 +76,7 @@ events.clearAll();
 ```
 
 
-#x## hasHandled
+### hasHandled
 **Description:** This function returns `true` if the event is handled, otherwise returns `false`.  
 **Returns:** List  
 **Example:**  
@@ -84,4 +84,4 @@ events.clearAll();
 events.hasHandled("saysHelloWorld");
 ```
 
-###### Coded with ❤️
+###### Made with ❤️
